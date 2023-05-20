@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project-37</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>RGB COLOR SLIDER</h3>
+      <div class="result-color"></div>
+      <div class="color-container">
+        <div class="input-wraper">
+          <label for="red">R</label>
+          <input type="range" name="red" id="red" min="0" max="255" value="0" />
+        </div>
+        <div class="input-wraper">
+          <label for="green">G</label>
+          <input
+            type="range"
+            name="green"
+            id="green"
+            min="0"
+            max="255"
+            value="0"
+          />
+        </div>
+        <div class="input-wraper">
+          <label for="red">B</label>
+          <input
+            type="range"
+            name="blue"
+            id="blue"
+            min="0"
+            max="255"
+            value="0"
+          />
+        </div>
+      </div>
+      <div class="button-container">
+        <div class="info">rgb(0,0,0)</div>
+        <button class="copy">COPY</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
